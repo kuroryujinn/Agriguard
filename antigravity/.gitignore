@@ -1,0 +1,42 @@
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Agriguard Local Outputs
+user_outputs/
+debug_output/
+*.log
+
+# Sensitive Files
+credentials.json
+token.pickle
+*.pem
+
+# Data and Assets (Usually too large for Git)
+data/
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+.gemini/
+antigravity.lnk

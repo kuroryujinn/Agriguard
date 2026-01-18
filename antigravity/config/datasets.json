@@ -1,0 +1,33 @@
+{
+  "benkanmura": {
+    "op1_post_pitting_folder_id": "1W_I6px0tKzmCfgdn-qolAYE3JjTpeIfC",
+    "op2_post_plantating_folder_id": "1WZkhKgb51uNY-x7-3Kh-NgbQQW1YRRw2",
+    "op3_post_sowing_folder_id": "1veB-pTRhbWEm7DvAYqG7fF4RGRsjBgER"
+  },
+  "debadihi": {
+    "op1_post_pitting_folder_id": "1px2JLrOrrus6u_UemW3T96D2Oa693LPh",
+    "op2_post_plantating_folder_id": "15cAgy7qLJabRJYi7Mw4DmpkyhAkXKP-Z",
+    "op3_post_sowing_folder_id": "1px2JLrOrrus6u_UemW3T96D2Oa693LPh"
+  },
+  "pit_detection": {
+    "min_area_px": 50,
+    "max_area_px": 5000,
+    "blur_kernel_size": 5,
+    "threshold_method": "otsu",
+    "circularity_min": 0.4
+  },
+  "op2_confirmation": {
+    "crop_size_px": 256,
+    "planted_threshold": 0.02,
+    "hsv_green_lower": [
+      25,
+      40,
+      40
+    ],
+    "hsv_green_upper": [
+      95,
+      255,
+      255
+    ]
+  }
+}
